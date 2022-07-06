@@ -1,8 +1,8 @@
-/very easy
+//very easy
 var num1 = 5;
 var num2 = 6;
-var num3 = num1 + num2
-console.log("The sum between" + num1+ "and" +num2 +"is");
+var num3 = num1 - num2
+console.log("The difference between" + num1+ "and" +num2 +"is");
 
 //easy
 var name1= "Beverlyn";
@@ -21,9 +21,36 @@ if (length1 > length2){
 console.log("The name " + longer + " is longer than " + shorter + " by " + by + " characters");
 
 //medium
-
+var input = prompt("Hello! how are you? :");
+if (input === input.toUpperCase()) {
+    return console.log("You should not shout?");
+ }
+ if (input === input.toLowerCase()){
+    return console.log("I cannot hear you! You are whispering");
+ }
+ else{
+    return console.log("Much better now I can hear your clearly!");
+ }
 //Hard
+function add(num1, num2){
+    var sum = num1 + num2
+    return console.log(sum)
+  }
 
+  function subtract(num1, num2){
+    var sum = num1 - num2
+    return console.log(sum)
+  }
+
+  function multiply(num1, num2){
+    var sum = num1 * num2
+    return console.log(sum)
+  }
+
+  function divide(num1, num2){
+    var sum = num1 / num2
+    return console.log(sum)
+  }
 
 
 
